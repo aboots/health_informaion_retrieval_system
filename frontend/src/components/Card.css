@@ -1,0 +1,19 @@
+.card_container {
+  width: 100%;
+  border-bottom: 2px solid #dddddd;
+  direction: rtl;
+  padding: 8px;
+}
+
+.card_container:last-child {
+  border: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}

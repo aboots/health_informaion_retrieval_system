@@ -1,0 +1,32 @@
+.link-analysis_container {
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  direction: rtl;
+  color: white;
+  width: 500px;
+}
+
+.link-analysis_title {
+  align-self: center;
+}
+
+.sentences_container {
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.sentences_container p {
+  margin: 0;
+  word-wrap: break-word;
+  padding: 16px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.sentences_container p:last-child {
+  border-bottom: none;
+}
+
+.hits-selection {
+  margin-top: 16px;
+}

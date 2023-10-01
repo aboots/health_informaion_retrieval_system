@@ -1,0 +1,55 @@
+.clustering_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.clustering-results_container {
+  width: 500px;
+  margin: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+}
+
+.clustering-results_title {
+  color: #99e8e5;
+  padding: 16px;
+  margin: 0;
+}
+
+.clustering-results_container span:last-child {
+  margin-bottom: 16px;
+}
+
+.clustering-items {
+  display: block;
+  padding: 8px;
+  color: white;
+}
+
+.clustering-image_container {
+  width: 800px;
+  border: 2px solid white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  margin-bottom: 16px;
+}
+
+.clustering-image_title {
+  padding: 8px;
+  display: block;
+  color: white;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.clustering-image_container img {
+  width: 750px;
+  height: 481px;
+}
